@@ -1,0 +1,17 @@
+/vendor/*/
+# Ignore folders
+
+# vendor
+release
+debug
+.idea
+
+# Ignore files
+*.txt
+*.csv
+.*.swp
+.idea/workspace.xml
+.idea/*
+release/
+docgen.sh
+/main.go

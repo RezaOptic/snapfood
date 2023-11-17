@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: snapfood
+    restart: always
+    ports:
+      - "9090:9170"
+    entrypoint: ["/main", "http_server"]

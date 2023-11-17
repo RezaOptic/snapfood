@@ -1,0 +1,10 @@
+# grpc config
+grpc_port = "9171"
+
+# http config
+http_port = "9170"
+
+# http config
+time_zone = "Asia/Tehran"
+
+service_name= "snapfood_service"
